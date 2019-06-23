@@ -1,0 +1,24 @@
+
+Story Title :
+
+Login Viewpoint Voting Platform Missing Username/Password
+
+Description :
+
+This Story is to encapsulate the scenarios/functionality of not providing Username/Password
+when logging into the Viewpoint Voting Platform
+
+
+Acceptance Criteria :
+
+AC : 
+Given Username and Password are NOT provided and User clicks login 
+Then "Viewpoint Voting Platform" message is displayed
+
+AC : 
+Given Username IS provided BUT Password IS NOT provided and User clicks login 
+Then "Viewpoint Voting Platform" message is displayed
+
+AC : 
+Given Password IS provided BUT Username IS NOT provided and User clicks login 
+Then "Viewpoint Voting Platform" message is displayed
